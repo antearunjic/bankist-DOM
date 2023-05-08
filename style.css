@@ -672,3 +672,96 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+
+/*Media Query*/
+@media (max-width: 930px) {
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    padding: 0.8rem 2.4rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 830px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+  .features {
+    margin: 0 5rem;
+  }
+  .slider {
+    height: 55rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 35%;
+  }
+  .header {
+    height: 50vh;
+  }
+  .header__title {
+    max-width: 105rem;
+  }
+  .section {
+    padding: 13rem 3rem;
+  }
+  .section__title {
+    max-width: 70rem;
+  }
+  .features {
+    gap: 2rem;
+    margin: 0 1rem;
+  }
+  .slider {
+    height: 60rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 30%;
+  }
+  .header__title {
+    max-width: 100rem;
+  }
+  .section {
+    padding: 12rem 3rem;
+  }
+  .section__title {
+    max-width: 70rem;
+    margin: 0 auto 2rem auto;
+  }
+  .features {
+    gap: 1rem;
+    margin: 0 1rem;
+  }
+  .slider {
+    height: 65rem;
+  }
+}
+@media (max-width: 300px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media (max-width: 200px) {
+  html {
+    font-size: 15%;
+  }
+}
